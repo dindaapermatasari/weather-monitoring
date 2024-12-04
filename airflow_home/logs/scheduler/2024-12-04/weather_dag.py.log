@@ -1,0 +1,393 @@
+[2024-12-04T14:50:17.925+0700] {processor.py:186} INFO - Started process (PID=54767) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:17.928+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:50:17.932+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:17.931+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:18.044+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:19.234+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:19.226+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:weather_dag
+[2024-12-04T14:50:19.339+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:19.338+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:weather_dag
+[2024-12-04T14:50:19.415+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:19.414+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:weather_dag
+[2024-12-04T14:50:19.697+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:19.695+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:weather_dag
+[2024-12-04T14:50:19.946+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:19.945+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:weather_dag
+[2024-12-04T14:50:20.012+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:20.011+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:weather_dag
+[2024-12-04T14:50:20.087+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:20.081+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:weather_dag
+[2024-12-04T14:50:20.088+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:20.087+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:20.145+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:20.144+0700] {dag.py:3262} INFO - Creating ORM DAG for weather_dag
+[2024-12-04T14:50:20.213+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:20.212+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:50:20.395+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 2.503 seconds
+[2024-12-04T14:50:51.079+0700] {processor.py:186} INFO - Started process (PID=55755) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:51.087+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:50:51.095+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:51.094+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:51.155+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:51.291+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:51.291+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:51.719+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:51.718+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:50:52.212+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.178 seconds
+[2024-12-04T14:50:53.882+0700] {processor.py:186} INFO - Started process (PID=55816) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:53.894+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:50:53.896+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:53.896+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:54.088+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:50:54.237+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:54.237+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:54.547+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:54.525+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:50:55.075+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.299 seconds
+[2024-12-04T14:51:26.310+0700] {processor.py:186} INFO - Started process (PID=56751) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:51:26.324+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:51:26.341+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:26.332+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:51:26.395+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:51:26.509+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:26.508+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:26.573+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:26.573+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:51:26.642+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.363 seconds
+[2024-12-04T14:51:57.504+0700] {processor.py:186} INFO - Started process (PID=57589) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:51:57.521+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:51:57.525+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:57.524+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:51:57.591+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:51:57.717+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:57.716+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:57.793+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:57.792+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:51:57.853+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.383 seconds
+[2024-12-04T14:52:28.130+0700] {processor.py:186} INFO - Started process (PID=58154) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:52:28.133+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:52:28.139+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:28.138+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:52:28.182+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:52:28.284+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:28.283+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:28.356+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:28.355+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:52:28.413+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.308 seconds
+[2024-12-04T14:52:59.317+0700] {processor.py:186} INFO - Started process (PID=58765) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:52:59.321+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:52:59.337+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:59.335+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:52:59.428+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:52:59.603+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:59.602+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:59.769+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:59.768+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:52:59.853+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.616 seconds
+[2024-12-04T14:53:30.357+0700] {processor.py:186} INFO - Started process (PID=59595) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:53:30.367+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:53:30.381+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:30.380+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:53:30.453+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:53:30.565+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:30.564+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:53:30.655+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:30.655+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:53:30.802+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.504 seconds
+[2024-12-04T14:54:03.444+0700] {processor.py:186} INFO - Started process (PID=60724) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:54:03.447+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:54:03.450+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:03.449+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:54:03.472+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:54:03.549+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:03.549+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:03.655+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:03.655+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:54:03.748+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.320 seconds
+[2024-12-04T14:54:35.817+0700] {processor.py:186} INFO - Started process (PID=61655) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:54:35.829+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:54:35.842+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:35.838+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:54:35.950+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:54:36.161+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:36.149+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:36.480+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:36.480+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:54:36.612+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.926 seconds
+[2024-12-04T14:55:06.879+0700] {processor.py:186} INFO - Started process (PID=62282) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:55:06.889+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:55:06.898+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:06.898+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:55:06.962+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:55:07.165+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:07.164+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:07.541+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:07.540+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:55:07.710+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.888 seconds
+[2024-12-04T14:55:38.048+0700] {processor.py:186} INFO - Started process (PID=62947) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:55:38.053+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:55:38.060+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:38.059+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:55:38.107+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:55:38.233+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:38.232+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:38.372+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:38.372+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:55:38.480+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.462 seconds
+[2024-12-04T14:56:08.676+0700] {processor.py:186} INFO - Started process (PID=63672) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:56:08.677+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:56:08.679+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:08.679+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:56:08.704+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:56:08.768+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:08.768+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:08.817+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:08.816+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:56:08.863+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.202 seconds
+[2024-12-04T14:56:39.099+0700] {processor.py:186} INFO - Started process (PID=64500) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:56:39.116+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:56:39.125+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:39.124+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:56:39.169+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:56:39.240+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:39.240+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:39.341+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:39.341+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:56:39.451+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.389 seconds
+[2024-12-04T14:57:09.675+0700] {processor.py:186} INFO - Started process (PID=65196) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:57:09.684+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:57:09.701+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:09.700+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:57:09.778+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:57:09.945+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:09.944+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:10.046+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:10.045+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:57:10.102+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.476 seconds
+[2024-12-04T14:57:40.507+0700] {processor.py:186} INFO - Started process (PID=65965) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:57:40.509+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:57:40.511+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:40.510+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:57:40.529+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:57:40.617+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:40.617+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:40.672+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:40.671+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:57:40.753+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.259 seconds
+[2024-12-04T14:58:10.884+0700] {processor.py:186} INFO - Started process (PID=66708) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:58:10.888+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:58:10.895+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:10.895+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:58:10.930+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:58:11.033+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:11.033+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:11.136+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:11.135+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:58:11.231+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.365 seconds
+[2024-12-04T14:58:41.449+0700] {processor.py:186} INFO - Started process (PID=67519) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:58:41.460+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:58:41.465+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:41.464+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:58:41.507+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:58:41.579+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:41.578+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:41.630+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:41.629+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:58:41.685+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.263 seconds
+[2024-12-04T14:59:13.255+0700] {processor.py:186} INFO - Started process (PID=68615) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:59:13.289+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:59:13.327+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:13.319+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:59:13.496+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:59:13.847+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:13.843+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:14.067+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:14.063+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:59:14.209+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.088 seconds
+[2024-12-04T14:59:44.515+0700] {processor.py:186} INFO - Started process (PID=69650) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:59:44.526+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T14:59:44.529+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:44.528+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:59:44.567+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T14:59:44.770+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:44.770+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:44.975+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:44.974+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 06:00:00+00:00, run_after=2024-12-04 07:00:00+00:00
+[2024-12-04T14:59:45.064+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.597 seconds
+[2024-12-04T15:00:16.655+0700] {processor.py:186} INFO - Started process (PID=70876) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:00:16.657+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:00:16.659+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:16.659+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:00:16.721+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:00:17.054+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:17.054+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:00:17.176+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:17.176+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:00:17.358+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.718 seconds
+[2024-12-04T15:00:49.442+0700] {processor.py:186} INFO - Started process (PID=72275) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:00:49.481+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:00:49.488+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:49.487+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:00:49.580+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:00:49.908+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:49.907+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:00:50.259+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:50.259+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:00:50.540+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.160 seconds
+[2024-12-04T15:01:27.809+0700] {processor.py:186} INFO - Started process (PID=72722) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:01:27.828+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:01:27.831+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:27.830+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:01:28.231+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:01:28.705+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:28.704+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:01:28.985+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:28.985+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:01:29.339+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.771 seconds
+[2024-12-04T15:01:59.960+0700] {processor.py:186} INFO - Started process (PID=74356) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:01:59.975+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:01:59.977+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:59.977+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:02:00.039+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:02:00.182+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:00.181+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:00.266+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:00.266+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:02:00.322+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.431 seconds
+[2024-12-04T15:02:30.685+0700] {processor.py:186} INFO - Started process (PID=75408) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:02:30.687+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:02:30.693+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:30.692+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:02:30.713+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:02:30.779+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:30.778+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:30.830+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:30.830+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:02:30.868+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.217 seconds
+[2024-12-04T15:03:01.573+0700] {processor.py:186} INFO - Started process (PID=76544) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:03:01.589+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:03:01.629+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:01.591+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:03:01.792+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:03:01.943+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:01.942+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:01.991+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:01.990+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:03:02.041+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.589 seconds
+[2024-12-04T15:03:32.541+0700] {processor.py:186} INFO - Started process (PID=77712) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:03:32.546+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:03:32.549+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:32.549+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:03:32.586+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:03:32.876+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:32.864+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:33.060+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:33.059+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:03:33.191+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.702 seconds
+[2024-12-04T15:04:03.654+0700] {processor.py:186} INFO - Started process (PID=78764) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:04:03.673+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:04:03.676+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:03.675+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:04:03.756+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:04:03.933+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:03.932+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:04.062+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:04.062+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:04:04.148+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.523 seconds
+[2024-12-04T15:04:35.295+0700] {processor.py:186} INFO - Started process (PID=79849) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:04:35.304+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:04:35.326+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:35.325+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:04:35.423+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:04:35.532+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:35.531+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:35.668+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:35.667+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:04:35.796+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.604 seconds
+[2024-12-04T15:05:09.937+0700] {processor.py:186} INFO - Started process (PID=80947) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:05:10.009+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:05:10.012+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:10.011+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:05:10.221+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:05:10.552+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:10.551+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:10.878+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:10.877+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:05:11.038+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.257 seconds
+[2024-12-04T15:05:44.400+0700] {processor.py:186} INFO - Started process (PID=82057) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:05:44.430+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:05:44.439+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:44.438+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:05:44.648+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:05:45.121+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:45.121+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:45.516+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:45.516+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:05:45.670+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.374 seconds
+[2024-12-04T15:06:16.374+0700] {processor.py:186} INFO - Started process (PID=82873) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:06:16.379+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:06:16.386+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:16.385+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:06:16.426+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:06:16.586+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:16.585+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:16.811+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:16.810+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:06:16.890+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.579 seconds
+[2024-12-04T15:06:48.162+0700] {processor.py:186} INFO - Started process (PID=83778) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:06:48.245+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:06:48.253+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:48.252+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:06:48.275+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:06:48.456+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:48.449+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:48.683+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:48.682+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:06:48.760+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.676 seconds
+[2024-12-04T15:07:19.383+0700] {processor.py:186} INFO - Started process (PID=84650) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:07:19.386+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:07:19.389+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:19.388+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:07:19.478+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:07:19.885+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:19.885+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:20.179+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:20.177+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:07:20.314+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.003 seconds
+[2024-12-04T15:07:50.673+0700] {processor.py:186} INFO - Started process (PID=85507) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:07:50.686+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:07:50.701+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:50.701+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:07:50.766+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:07:50.940+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:50.939+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:50.998+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:50.998+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:07:51.107+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.491 seconds
+[2024-12-04T15:08:23.365+0700] {processor.py:186} INFO - Started process (PID=86358) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:08:23.368+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:08:23.371+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:23.371+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:08:23.504+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:08:24.212+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:24.209+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:24.566+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:24.566+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:08:24.740+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.394 seconds
+[2024-12-04T15:08:55.909+0700] {processor.py:186} INFO - Started process (PID=87211) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:08:55.914+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:08:55.917+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:55.916+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:08:56.043+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:08:56.375+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:56.374+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:56.531+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:56.530+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:08:56.618+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.744 seconds
+[2024-12-04T15:09:27.193+0700] {processor.py:186} INFO - Started process (PID=88074) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:09:27.199+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:09:27.212+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:27.212+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:09:27.299+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:09:27.778+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:27.767+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:27.960+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:27.959+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:09:28.032+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.954 seconds
+[2024-12-04T15:09:58.852+0700] {processor.py:186} INFO - Started process (PID=88971) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:09:58.855+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:09:58.864+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:58.857+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:09:58.884+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:09:59.223+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:59.222+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:59.487+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:59.486+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:09:59.631+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.794 seconds
+[2024-12-04T15:10:30.323+0700] {processor.py:186} INFO - Started process (PID=89738) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:10:30.335+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:10:30.338+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:30.338+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:10:30.412+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:10:30.511+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:30.511+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:10:30.659+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:30.659+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:10:30.781+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.514 seconds
+[2024-12-04T15:11:04.020+0700] {processor.py:186} INFO - Started process (PID=90616) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:11:04.048+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:11:04.051+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:04.050+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:11:04.159+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:11:04.428+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:04.427+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:11:04.585+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:04.584+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:11:04.667+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.738 seconds
+[2024-12-04T15:11:35.817+0700] {processor.py:186} INFO - Started process (PID=91438) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:11:35.826+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:11:35.837+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:35.830+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:11:36.008+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:11:36.472+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:36.471+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:11:36.728+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:36.728+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:11:37.041+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.260 seconds
+[2024-12-04T15:12:16.466+0700] {processor.py:186} INFO - Started process (PID=92732) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:12:16.471+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:12:16.484+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:16.483+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:12:16.542+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:12:17.149+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:17.148+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:17.434+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:17.432+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:12:17.808+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.569 seconds
+[2024-12-04T15:12:52.492+0700] {processor.py:186} INFO - Started process (PID=93785) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:12:52.546+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:12:52.565+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:52.548+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:12:52.766+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:12:53.194+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:53.193+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:53.276+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:53.276+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:12:53.354+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.957 seconds
+[2024-12-04T15:13:25.896+0700] {processor.py:186} INFO - Started process (PID=94842) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:13:25.921+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:13:25.931+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:25.930+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:13:25.979+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:13:26.204+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:26.203+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:13:26.360+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:26.360+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:13:26.456+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.656 seconds
+[2024-12-04T15:13:57.423+0700] {processor.py:186} INFO - Started process (PID=95732) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:13:57.449+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:13:57.453+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:57.452+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:13:57.525+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:13:57.645+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:57.644+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:13:57.843+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:57.843+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:13:57.953+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.607 seconds
+[2024-12-04T15:14:33.021+0700] {processor.py:186} INFO - Started process (PID=96949) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:14:33.028+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:14:33.031+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:33.030+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:14:33.086+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:14:33.270+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:33.270+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:14:33.508+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:33.507+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:14:33.773+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.769 seconds
+[2024-12-04T15:15:17.327+0700] {processor.py:186} INFO - Started process (PID=98608) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:15:17.342+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:15:17.358+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:17.345+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:15:17.415+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:15:17.673+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:17.672+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:15:17.949+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:17.948+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:15:18.053+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.829 seconds
+[2024-12-04T15:16:00.018+0700] {processor.py:186} INFO - Started process (PID=99549) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:16:00.035+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:16:00.042+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:00.041+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:16:00.272+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:16:00.864+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:00.863+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:01.101+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:01.101+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:16:01.477+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.618 seconds
+[2024-12-04T15:16:40.557+0700] {processor.py:186} INFO - Started process (PID=100603) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:16:40.590+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:16:40.592+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:40.592+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:16:40.739+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:16:40.954+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:40.953+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:41.078+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:41.078+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:16:41.173+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 0.719 seconds
+[2024-12-04T15:17:16.582+0700] {processor.py:186} INFO - Started process (PID=102154) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:17:16.598+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:17:16.601+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:16.600+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:17:16.662+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:17:16.771+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:16.770+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:17:18.187+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:18.187+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:17:18.356+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.804 seconds
+[2024-12-04T15:17:58.300+0700] {processor.py:186} INFO - Started process (PID=103425) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:17:58.334+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:17:58.337+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:58.336+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:17:58.401+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:17:58.666+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:58.666+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:17:58.892+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:58.892+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:18:00.253+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 2.033 seconds
+[2024-12-04T15:18:42.231+0700] {processor.py:186} INFO - Started process (PID=105111) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:18:42.271+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:18:42.273+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:42.273+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:18:42.390+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:18:43.162+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:43.162+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:18:43.479+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:43.479+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:18:43.825+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.653 seconds
+[2024-12-04T15:19:44.759+0700] {processor.py:186} INFO - Started process (PID=106711) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:19:44.779+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:19:44.784+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:44.783+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:19:47.124+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:19:47.406+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:47.405+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:19:47.884+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:47.884+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:19:48.009+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 3.327 seconds
+[2024-12-04T15:20:27.876+0700] {processor.py:186} INFO - Started process (PID=108397) to work on /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:20:27.899+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py for tasks to queue
+[2024-12-04T15:20:27.912+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:27.911+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:20:27.975+0700] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py
+[2024-12-04T15:20:28.321+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:28.320+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:20:28.617+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:28.617+0700] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-12-04 07:00:00+00:00, run_after=2024-12-04 08:00:00+00:00
+[2024-12-04T15:20:28.836+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/airflow_home/dags/weather_dag.py took 1.043 seconds

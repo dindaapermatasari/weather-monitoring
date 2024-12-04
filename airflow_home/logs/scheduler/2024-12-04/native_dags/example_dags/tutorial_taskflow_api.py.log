@@ -1,0 +1,597 @@
+[2024-12-04T13:11:34.119+0700] {processor.py:186} INFO - Started process (PID=15796) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:11:34.121+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:11:34.125+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.125+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:11:34.179+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:11:34.623+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.622+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2024-12-04T13:11:34.652+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.650+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2024-12-04T13:11:34.675+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.675+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2024-12-04T13:11:34.708+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.708+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2024-12-04T13:11:34.731+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.730+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2024-12-04T13:11:34.757+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.748+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2024-12-04T13:11:34.778+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.777+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2024-12-04T13:11:34.779+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.778+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:11:34.822+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.822+0700] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2024-12-04T13:11:34.823+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:34.823+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:11:34.893+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.786 seconds
+[2024-12-04T13:12:39.033+0700] {processor.py:186} INFO - Started process (PID=16651) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:12:39.035+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:12:39.038+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:39.037+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:12:39.053+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:12:39.092+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:39.092+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:12:39.113+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:39.112+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:12:39.172+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.147 seconds
+[2024-12-04T13:13:46.993+0700] {processor.py:186} INFO - Started process (PID=17379) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:13:46.994+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:13:46.996+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:46.996+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:13:47.007+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:13:47.023+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:47.023+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:13:47.038+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:47.037+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:13:47.059+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.078 seconds
+[2024-12-04T13:31:57.188+0700] {processor.py:186} INFO - Started process (PID=30465) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:31:57.190+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:31:57.195+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:31:57.195+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:31:57.215+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:31:57.270+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:31:57.270+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:31:57.355+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:31:57.355+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:31:57.423+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.247 seconds
+[2024-12-04T13:32:56.390+0700] {processor.py:186} INFO - Started process (PID=30774) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:32:56.393+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:32:56.397+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:56.395+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:32:56.405+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:32:56.422+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:56.422+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:32:56.436+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:56.436+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:32:56.457+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.075 seconds
+[2024-12-04T13:33:51.185+0700] {processor.py:186} INFO - Started process (PID=30956) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:33:51.189+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:33:51.194+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:51.193+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:33:51.206+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:33:51.223+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:51.223+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:33:51.237+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:51.237+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:33:51.259+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.089 seconds
+[2024-12-04T13:34:46.159+0700] {processor.py:186} INFO - Started process (PID=31257) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:34:46.160+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T13:34:46.171+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:46.170+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:34:46.215+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T13:34:46.252+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:46.251+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:34:46.272+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:46.272+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T13:34:46.302+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.165 seconds
+[2024-12-04T14:09:27.295+0700] {processor.py:186} INFO - Started process (PID=36988) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:09:27.297+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:09:27.305+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:09:27.304+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:09:27.335+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:09:27.477+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:09:27.476+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:09:27.550+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:09:27.550+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:09:27.677+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.399 seconds
+[2024-12-04T14:10:34.455+0700] {processor.py:186} INFO - Started process (PID=37620) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:10:34.457+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:10:34.463+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:34.462+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:10:34.482+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:10:34.509+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:34.508+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:10:34.530+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:34.529+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:10:34.568+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.131 seconds
+[2024-12-04T14:11:09.978+0700] {processor.py:186} INFO - Started process (PID=37779) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:11:09.981+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:11:09.986+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:11:09.985+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:11:10.007+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:11:10.043+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:11:10.042+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:11:10.069+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:11:10.068+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:11:10.124+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.164 seconds
+[2024-12-04T14:40:17.493+0700] {processor.py:186} INFO - Started process (PID=45284) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:40:17.496+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:40:17.501+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:17.500+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:40:17.551+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:40:17.937+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:17.935+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2024-12-04T14:40:17.960+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:17.959+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2024-12-04T14:40:17.981+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:17.980+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2024-12-04T14:40:18.003+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.002+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2024-12-04T14:40:18.024+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.023+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2024-12-04T14:40:18.044+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.044+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2024-12-04T14:40:18.062+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.061+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2024-12-04T14:40:18.062+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.062+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:40:18.088+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.088+0700] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2024-12-04T14:40:18.089+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:18.089+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:40:18.137+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.660 seconds
+[2024-12-04T14:40:48.903+0700] {processor.py:186} INFO - Started process (PID=45883) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:40:48.912+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:40:48.920+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:48.919+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:40:49.021+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:40:49.207+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:49.206+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:40:49.342+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:49.341+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:40:49.498+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.632 seconds
+[2024-12-04T14:41:19.912+0700] {processor.py:186} INFO - Started process (PID=46182) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:41:19.914+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:41:19.924+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:19.920+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:41:19.959+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:41:20.125+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:20.124+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:41:20.182+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:20.182+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:41:20.243+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.348 seconds
+[2024-12-04T14:41:50.960+0700] {processor.py:186} INFO - Started process (PID=46481) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:41:50.962+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:41:50.967+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:50.966+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:41:50.994+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:41:51.083+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:51.082+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:41:51.115+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:51.115+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:41:51.164+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.217 seconds
+[2024-12-04T14:42:21.538+0700] {processor.py:186} INFO - Started process (PID=46807) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:42:21.541+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:42:21.551+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:21.547+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:42:21.589+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:42:21.731+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:21.730+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:42:21.790+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:21.789+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:42:21.928+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.423 seconds
+[2024-12-04T14:42:52.026+0700] {processor.py:186} INFO - Started process (PID=47534) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:42:52.028+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:42:52.033+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:52.032+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:42:52.049+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:42:52.107+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:52.106+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:42:52.146+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:52.145+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:42:52.184+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.174 seconds
+[2024-12-04T14:43:22.788+0700] {processor.py:186} INFO - Started process (PID=47701) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:43:22.790+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:43:22.795+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:22.794+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:43:22.812+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:43:22.876+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:22.875+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:43:22.919+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:22.918+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:43:22.972+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.197 seconds
+[2024-12-04T14:43:53.898+0700] {processor.py:186} INFO - Started process (PID=47829) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:43:53.900+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:43:53.906+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:53.905+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:43:53.927+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:43:53.997+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:53.997+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:43:54.030+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:54.029+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:43:54.073+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.195 seconds
+[2024-12-04T14:44:24.439+0700] {processor.py:186} INFO - Started process (PID=47960) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:44:24.441+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:44:24.448+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:24.447+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:44:24.468+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:44:24.533+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:24.532+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:44:24.563+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:24.562+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:44:24.602+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.181 seconds
+[2024-12-04T14:44:55.691+0700] {processor.py:186} INFO - Started process (PID=48625) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:44:55.703+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:44:55.709+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:55.708+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:44:56.011+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:44:56.256+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:56.255+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:44:56.395+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:56.394+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:44:56.537+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.946 seconds
+[2024-12-04T14:45:26.842+0700] {processor.py:186} INFO - Started process (PID=49452) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:45:26.845+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:45:26.855+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:26.853+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:45:26.899+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:45:27.012+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:27.011+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:45:27.101+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:27.101+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:45:27.171+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.350 seconds
+[2024-12-04T14:45:57.785+0700] {processor.py:186} INFO - Started process (PID=50143) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:45:57.799+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:45:57.807+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:57.806+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:45:57.836+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:45:57.935+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:57.934+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:45:57.982+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:57.981+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:45:58.049+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.303 seconds
+[2024-12-04T14:46:28.374+0700] {processor.py:186} INFO - Started process (PID=50880) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:46:28.377+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:46:28.403+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:28.402+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:46:28.463+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:46:28.627+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:28.627+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:46:28.749+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:28.749+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:46:28.893+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.540 seconds
+[2024-12-04T14:46:59.704+0700] {processor.py:186} INFO - Started process (PID=51475) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:46:59.706+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:46:59.711+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:59.711+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:46:59.743+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:46:59.804+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:59.804+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:46:59.839+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:59.838+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:46:59.889+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.200 seconds
+[2024-12-04T14:47:30.181+0700] {processor.py:186} INFO - Started process (PID=51993) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:47:30.183+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:47:30.189+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:30.188+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:47:30.212+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:47:30.285+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:30.285+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:47:30.322+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:30.322+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:47:30.379+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.220 seconds
+[2024-12-04T14:48:00.463+0700] {processor.py:186} INFO - Started process (PID=52378) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:48:00.466+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:48:00.474+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:00.473+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:48:00.498+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:48:00.576+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:00.575+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:48:00.625+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:00.625+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:48:00.733+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.289 seconds
+[2024-12-04T14:48:30.849+0700] {processor.py:186} INFO - Started process (PID=52790) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:48:30.853+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:48:30.860+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:30.859+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:48:30.891+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:48:30.983+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:30.982+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:48:31.018+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:31.017+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:48:31.083+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.253 seconds
+[2024-12-04T14:49:01.604+0700] {processor.py:186} INFO - Started process (PID=53130) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:49:01.607+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:49:01.615+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:01.615+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:49:01.645+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:49:01.733+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:01.732+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:49:01.781+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:01.781+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:49:01.880+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.301 seconds
+[2024-12-04T14:49:32.082+0700] {processor.py:186} INFO - Started process (PID=53710) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:49:32.085+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:49:32.095+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:32.094+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:49:32.119+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:49:32.212+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:32.212+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:49:32.262+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:32.262+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:49:32.339+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.283 seconds
+[2024-12-04T14:50:02.941+0700] {processor.py:186} INFO - Started process (PID=54318) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:50:02.949+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:50:02.967+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:02.966+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:50:03.026+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:50:03.340+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:03.323+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:03.474+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:03.473+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:50:03.602+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.684 seconds
+[2024-12-04T14:50:35.822+0700] {processor.py:186} INFO - Started process (PID=55334) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:50:35.833+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:50:35.836+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:35.835+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:50:35.877+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:50:36.276+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:36.275+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:36.495+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:36.494+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:50:36.807+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.004 seconds
+[2024-12-04T14:51:07.210+0700] {processor.py:186} INFO - Started process (PID=56164) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:51:07.212+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:51:07.216+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:07.215+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:51:07.244+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:51:07.319+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:07.319+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:07.365+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:07.364+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:51:07.458+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.267 seconds
+[2024-12-04T14:51:40.156+0700] {processor.py:186} INFO - Started process (PID=57152) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:51:40.181+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:51:40.186+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:40.185+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:51:40.328+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:51:40.463+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:40.462+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:40.504+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:40.504+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:51:40.631+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.594 seconds
+[2024-12-04T14:52:10.781+0700] {processor.py:186} INFO - Started process (PID=57862) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:52:10.784+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:52:10.788+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:10.788+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:52:10.819+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:52:10.925+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:10.924+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:10.957+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:10.957+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:52:10.995+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.233 seconds
+[2024-12-04T14:52:41.759+0700] {processor.py:186} INFO - Started process (PID=58409) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:52:41.762+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:52:41.768+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:41.767+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:52:41.793+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:52:41.879+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:41.879+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:41.915+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:41.914+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:52:41.966+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.226 seconds
+[2024-12-04T14:53:12.617+0700] {processor.py:186} INFO - Started process (PID=59129) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:53:12.623+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:53:12.628+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:12.627+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:53:12.744+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:53:13.123+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:13.121+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:53:13.312+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:13.311+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:53:13.550+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.034 seconds
+[2024-12-04T14:53:43.755+0700] {processor.py:186} INFO - Started process (PID=59980) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:53:43.757+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:53:43.759+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:43.759+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:53:43.786+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:53:43.843+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:43.840+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:53:43.953+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:43.952+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:53:44.093+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.351 seconds
+[2024-12-04T14:54:17.094+0700] {processor.py:186} INFO - Started process (PID=61108) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:54:17.097+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:54:17.100+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:17.099+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:54:17.141+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:54:17.291+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:17.290+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:17.485+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:17.484+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:54:17.628+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.546 seconds
+[2024-12-04T14:54:48.030+0700] {processor.py:186} INFO - Started process (PID=61863) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:54:48.037+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:54:48.045+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:48.044+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:54:48.197+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:54:48.351+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:48.350+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:48.507+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:48.486+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:54:48.670+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.732 seconds
+[2024-12-04T14:55:19.417+0700] {processor.py:186} INFO - Started process (PID=62603) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:55:19.450+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:55:19.455+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:19.455+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:55:19.644+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:55:19.880+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:19.879+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:19.942+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:19.940+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:55:20.063+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.772 seconds
+[2024-12-04T14:55:50.815+0700] {processor.py:186} INFO - Started process (PID=63255) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:55:50.834+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:55:50.838+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:50.837+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:55:50.890+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:55:51.032+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:51.031+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:51.105+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:51.105+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:55:51.216+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.444 seconds
+[2024-12-04T14:56:21.591+0700] {processor.py:186} INFO - Started process (PID=64060) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:56:21.627+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:56:21.657+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:21.656+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:56:21.852+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:56:22.002+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:22.001+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:22.079+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:22.079+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:56:22.174+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.675 seconds
+[2024-12-04T14:56:52.678+0700] {processor.py:186} INFO - Started process (PID=64827) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:56:52.680+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:56:52.682+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:52.682+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:56:52.699+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:56:52.758+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:52.758+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:52.788+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:52.787+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:56:52.825+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.159 seconds
+[2024-12-04T14:57:22.936+0700] {processor.py:186} INFO - Started process (PID=65553) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:57:22.950+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:57:22.953+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:22.952+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:57:23.001+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:57:23.144+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:23.143+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:23.221+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:23.220+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:57:23.340+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.447 seconds
+[2024-12-04T14:57:53.770+0700] {processor.py:186} INFO - Started process (PID=66248) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:57:53.772+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:57:53.774+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:53.774+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:57:53.792+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:57:53.865+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:53.865+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:53.899+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:53.899+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:57:53.946+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.189 seconds
+[2024-12-04T14:58:24.090+0700] {processor.py:186} INFO - Started process (PID=67115) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:58:24.091+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:58:24.095+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:24.093+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:58:24.113+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:58:24.176+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:24.175+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:24.204+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:24.204+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:58:24.238+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.160 seconds
+[2024-12-04T14:58:54.428+0700] {processor.py:186} INFO - Started process (PID=67898) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:58:54.430+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:58:54.432+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:54.432+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:58:54.510+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:58:54.618+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:54.618+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:54.662+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:54.661+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:58:54.711+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.298 seconds
+[2024-12-04T14:59:25.372+0700] {processor.py:186} INFO - Started process (PID=68994) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:59:25.379+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:59:25.403+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:25.380+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:59:25.457+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:59:25.667+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:25.667+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:25.749+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:25.748+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:59:25.883+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.570 seconds
+[2024-12-04T14:59:57.775+0700] {processor.py:186} INFO - Started process (PID=70064) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:59:57.782+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T14:59:57.784+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:57.784+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:59:57.847+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T14:59:58.114+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:58.114+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:58.285+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:58.285+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T14:59:58.389+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.648 seconds
+[2024-12-04T15:00:29.179+0700] {processor.py:186} INFO - Started process (PID=71437) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:00:29.197+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:00:29.200+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:29.200+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:00:29.306+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:00:29.582+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:29.581+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:00:29.657+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:29.657+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:00:29.773+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.646 seconds
+[2024-12-04T15:01:29.702+0700] {processor.py:186} INFO - Started process (PID=72903) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:01:29.718+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:01:29.720+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:29.720+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:01:29.794+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:01:30.057+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:30.057+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:01:30.347+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:30.347+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:01:30.732+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.118 seconds
+[2024-12-04T15:02:01.359+0700] {processor.py:186} INFO - Started process (PID=74413) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:02:01.368+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:02:01.372+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:01.371+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:02:01.503+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:02:01.722+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:01.721+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:01.811+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:01.810+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:02:01.900+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.628 seconds
+[2024-12-04T15:02:32.020+0700] {processor.py:186} INFO - Started process (PID=75451) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:02:32.023+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:02:32.027+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:32.026+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:02:32.100+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:02:32.352+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:32.352+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:32.466+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:32.465+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:02:32.736+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.717 seconds
+[2024-12-04T15:03:03.228+0700] {processor.py:186} INFO - Started process (PID=76662) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:03:03.234+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:03:03.251+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:03.236+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:03:03.336+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:03:03.458+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:03.457+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:03.521+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:03.521+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:03:03.656+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.511 seconds
+[2024-12-04T15:03:33.860+0700] {processor.py:186} INFO - Started process (PID=77772) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:03:33.894+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:03:33.896+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:33.896+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:03:33.999+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:03:34.104+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:34.104+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:34.203+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:34.203+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:03:34.376+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.555 seconds
+[2024-12-04T15:04:05.075+0700] {processor.py:186} INFO - Started process (PID=78807) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:04:05.098+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:04:05.100+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:05.100+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:04:05.194+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:04:05.390+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:05.390+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:05.488+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:05.487+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:04:05.648+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.658 seconds
+[2024-12-04T15:04:36.702+0700] {processor.py:186} INFO - Started process (PID=79904) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:04:36.721+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:04:36.728+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:36.728+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:04:36.870+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:04:37.091+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:37.090+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:37.269+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:37.268+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:04:37.327+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.741 seconds
+[2024-12-04T15:05:11.317+0700] {processor.py:186} INFO - Started process (PID=81081) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:05:11.348+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:05:11.363+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:11.363+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:05:11.538+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:05:11.894+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:11.893+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:12.080+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:12.079+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:05:12.265+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.075 seconds
+[2024-12-04T15:05:45.981+0700] {processor.py:186} INFO - Started process (PID=82105) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:05:46.009+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:05:46.015+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:46.014+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:05:46.133+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:05:46.685+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:46.685+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:47.038+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:47.037+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:05:47.328+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.421 seconds
+[2024-12-04T15:06:18.032+0700] {processor.py:186} INFO - Started process (PID=82925) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:06:18.049+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:06:18.053+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:18.052+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:06:18.087+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:06:18.271+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:18.271+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:18.423+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:18.422+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:06:18.823+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.814 seconds
+[2024-12-04T15:06:49.272+0700] {processor.py:186} INFO - Started process (PID=83808) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:06:49.286+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:06:49.293+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:49.292+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:06:49.353+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:06:49.761+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:49.760+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:49.964+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:49.957+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:06:50.172+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.956 seconds
+[2024-12-04T15:07:20.554+0700] {processor.py:186} INFO - Started process (PID=84676) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:07:20.559+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:07:20.562+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:20.561+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:07:20.634+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:07:20.842+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:20.842+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:20.906+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:20.906+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:07:20.974+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.454 seconds
+[2024-12-04T15:07:51.757+0700] {processor.py:186} INFO - Started process (PID=85534) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:07:51.759+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:07:51.762+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:51.761+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:07:51.823+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:07:52.312+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:52.312+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:52.368+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:52.368+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:07:52.445+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.701 seconds
+[2024-12-04T15:08:24.273+0700] {processor.py:186} INFO - Started process (PID=86375) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:08:24.280+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:08:24.292+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:24.292+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:08:24.405+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:08:24.781+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:24.781+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:24.895+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:24.895+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:08:25.036+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.927 seconds
+[2024-12-04T15:08:55.957+0700] {processor.py:186} INFO - Started process (PID=87215) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:08:55.974+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:08:56.002+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:56.001+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:08:56.137+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:08:56.383+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:56.383+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:56.465+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:56.464+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:08:56.616+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.704 seconds
+[2024-12-04T15:09:27.324+0700] {processor.py:186} INFO - Started process (PID=88080) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:09:27.333+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:09:27.338+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:27.337+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:09:27.476+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:09:27.869+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:27.862+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:27.982+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:27.982+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:09:28.139+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.841 seconds
+[2024-12-04T15:09:59.089+0700] {processor.py:186} INFO - Started process (PID=88975) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:09:59.097+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:09:59.100+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:59.099+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:09:59.140+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:09:59.282+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:59.282+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:59.453+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:59.452+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:09:59.645+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.642 seconds
+[2024-12-04T15:10:31.080+0700] {processor.py:186} INFO - Started process (PID=89754) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:10:31.175+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:10:31.231+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:31.231+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:10:31.437+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:10:31.571+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:31.570+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:10:31.646+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:31.645+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:10:31.728+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.803 seconds
+[2024-12-04T15:11:04.753+0700] {processor.py:186} INFO - Started process (PID=90639) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:11:04.774+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:11:04.781+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:04.780+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:11:04.929+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:11:05.353+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:05.353+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:11:05.535+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:05.534+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:11:05.855+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.222 seconds
+[2024-12-04T15:11:48.996+0700] {processor.py:186} INFO - Started process (PID=91787) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:11:49.003+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:11:49.009+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:49.007+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:11:49.231+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:11:49.506+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:49.506+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:11:49.819+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:49.813+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:11:49.998+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.053 seconds
+[2024-12-04T15:12:24.786+0700] {processor.py:186} INFO - Started process (PID=93052) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:12:24.821+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:12:24.824+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:24.823+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:12:25.019+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:12:25.196+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:25.196+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:25.247+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:25.246+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:12:25.304+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.639 seconds
+[2024-12-04T15:12:58.048+0700] {processor.py:186} INFO - Started process (PID=93954) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:12:58.101+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:12:58.111+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:58.110+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:12:58.215+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:12:58.472+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:58.471+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:58.532+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:58.532+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:12:58.682+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.782 seconds
+[2024-12-04T15:13:29.501+0700] {processor.py:186} INFO - Started process (PID=94950) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:13:29.517+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:13:29.529+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:29.528+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:13:29.626+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:13:29.887+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:29.884+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:13:30.057+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:30.057+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:13:30.233+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.855 seconds
+[2024-12-04T15:14:02.365+0700] {processor.py:186} INFO - Started process (PID=95882) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:14:02.368+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:14:02.371+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:02.370+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:14:02.414+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:14:03.066+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:03.066+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:14:03.493+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:03.493+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:14:03.933+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.607 seconds
+[2024-12-04T15:14:40.433+0700] {processor.py:186} INFO - Started process (PID=97269) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:14:40.454+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:14:40.457+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:40.456+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:14:40.532+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:14:40.749+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:40.748+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:14:40.791+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:40.790+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:14:40.874+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.525 seconds
+[2024-12-04T15:15:19.185+0700] {processor.py:186} INFO - Started process (PID=98656) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:15:19.192+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:15:19.200+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:19.195+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:15:19.293+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:15:19.667+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:19.666+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:15:19.888+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:19.888+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:15:20.254+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.165 seconds
+[2024-12-04T15:16:01.796+0700] {processor.py:186} INFO - Started process (PID=99582) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:16:01.812+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:16:01.820+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:01.815+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:16:01.889+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:16:02.153+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:02.153+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:02.369+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:02.368+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:16:02.676+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.061 seconds
+[2024-12-04T15:16:41.322+0700] {processor.py:186} INFO - Started process (PID=100627) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:16:41.347+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:16:41.355+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:41.354+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:16:41.441+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:16:41.563+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:41.562+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:41.648+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:41.647+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:16:41.779+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.589 seconds
+[2024-12-04T15:17:18.029+0700] {processor.py:186} INFO - Started process (PID=102209) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:17:18.045+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:17:18.060+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:18.059+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:17:18.134+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:17:18.451+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:18.450+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:17:19.541+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:19.541+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:17:19.611+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.716 seconds
+[2024-12-04T15:17:59.068+0700] {processor.py:186} INFO - Started process (PID=103451) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:17:59.089+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:17:59.092+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:59.091+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:17:59.226+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:17:59.539+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:59.539+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:17:59.678+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:59.678+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:17:59.854+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.867 seconds
+[2024-12-04T15:18:44.843+0700] {processor.py:186} INFO - Started process (PID=105166) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:18:44.852+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:18:44.854+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:44.854+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:18:45.005+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:18:45.558+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:45.558+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:18:46.253+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:46.252+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:18:46.719+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 2.067 seconds
+[2024-12-04T15:19:47.452+0700] {processor.py:186} INFO - Started process (PID=106824) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:19:47.510+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:19:47.512+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:47.512+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:19:49.222+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:19:49.865+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:49.828+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:19:50.089+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:50.088+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:19:50.248+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 2.864 seconds
+[2024-12-04T15:20:28.388+0700] {processor.py:186} INFO - Started process (PID=108417) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:20:28.406+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-04T15:20:28.409+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:28.408+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:20:28.445+0700] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-04T15:20:28.619+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:28.619+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:20:28.651+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:28.651+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-04T15:20:28.797+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.441 seconds

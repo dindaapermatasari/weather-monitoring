@@ -1,0 +1,576 @@
+[2024-12-04T13:11:59.620+0700] {processor.py:186} INFO - Started process (PID=16262) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:11:59.622+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T13:11:59.626+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.625+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:11:59.658+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:11:59.785+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.784+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-12-04T13:11:59.801+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.800+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-12-04T13:11:59.810+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.810+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-12-04T13:11:59.823+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.823+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-12-04T13:11:59.830+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.830+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-12-04T13:11:59.840+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.839+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-12-04T13:11:59.851+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.850+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-12-04T13:11:59.852+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.851+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:11:59.865+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.865+0700] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-12-04T13:11:59.867+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:11:59.866+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T13:11:59.891+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.285 seconds
+[2024-12-04T13:13:01.957+0700] {processor.py:186} INFO - Started process (PID=16877) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:13:01.959+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T13:13:01.962+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:01.962+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:13:01.979+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:13:02.017+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:02.016+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:13:02.034+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:02.034+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T13:13:02.064+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2024-12-04T13:32:19.948+0700] {processor.py:186} INFO - Started process (PID=30692) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:32:19.949+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T13:32:19.951+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:19.951+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:32:19.964+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:32:19.996+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:19.996+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:32:20.009+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:20.009+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T13:32:20.031+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.090 seconds
+[2024-12-04T13:33:16.945+0700] {processor.py:186} INFO - Started process (PID=30897) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:33:16.947+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T13:33:16.949+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:16.948+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:33:16.961+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:33:16.987+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:16.987+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:33:17.000+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:16.999+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T13:33:17.022+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.085 seconds
+[2024-12-04T13:34:10.891+0700] {processor.py:186} INFO - Started process (PID=31151) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:34:10.892+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T13:34:10.894+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:10.894+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:34:10.906+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:34:10.929+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:10.929+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:34:10.942+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:10.942+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T13:34:10.971+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.088 seconds
+[2024-12-04T13:35:08.144+0700] {processor.py:186} INFO - Started process (PID=31389) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:35:08.146+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T13:35:08.152+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:35:08.151+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:35:08.169+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T13:35:08.194+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:35:08.194+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:35:08.208+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:35:08.207+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T13:35:08.229+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2024-12-04T14:09:53.962+0700] {processor.py:186} INFO - Started process (PID=37416) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:09:53.964+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:09:53.969+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:09:53.968+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:09:53.991+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:09:54.028+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:09:54.028+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:09:54.051+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:09:54.051+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:09:54.091+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.147 seconds
+[2024-12-04T14:10:57.049+0700] {processor.py:186} INFO - Started process (PID=37767) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:10:57.051+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:10:57.057+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:57.056+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:10:57.080+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:10:57.123+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:57.122+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:10:57.169+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:57.168+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:10:57.210+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.186 seconds
+[2024-12-04T14:40:23.680+0700] {processor.py:186} INFO - Started process (PID=45503) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:40:23.682+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:40:23.688+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:23.687+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:40:23.707+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:40:23.946+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:23.944+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-12-04T14:40:23.978+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:23.977+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-12-04T14:40:23.997+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:23.996+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-12-04T14:40:24.016+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.016+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-12-04T14:40:24.038+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.038+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-12-04T14:40:24.056+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.055+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-12-04T14:40:24.080+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.080+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-12-04T14:40:24.081+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.081+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:40:24.118+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.118+0700] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-12-04T14:40:24.120+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:24.120+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:40:24.160+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.493 seconds
+[2024-12-04T14:40:54.362+0700] {processor.py:186} INFO - Started process (PID=45926) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:40:54.370+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:40:54.383+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:54.376+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:40:54.467+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:40:54.598+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:54.598+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:40:54.635+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:54.634+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:40:54.747+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.438 seconds
+[2024-12-04T14:41:25.528+0700] {processor.py:186} INFO - Started process (PID=46224) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:41:25.531+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:41:25.536+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:25.535+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:41:25.581+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:41:25.685+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:25.685+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:41:25.762+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:25.761+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:41:25.852+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.342 seconds
+[2024-12-04T14:41:56.643+0700] {processor.py:186} INFO - Started process (PID=46528) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:41:56.653+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:41:56.662+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:56.661+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:41:56.703+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:41:56.851+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:56.850+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:41:56.933+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:56.932+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:41:57.040+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.415 seconds
+[2024-12-04T14:42:27.936+0700] {processor.py:186} INFO - Started process (PID=46994) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:42:27.940+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:42:27.945+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:27.944+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:42:27.974+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:42:28.074+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:28.073+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:42:28.103+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:28.102+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:42:28.144+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.227 seconds
+[2024-12-04T14:42:58.872+0700] {processor.py:186} INFO - Started process (PID=47577) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:42:58.876+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:42:58.886+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:58.885+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:42:58.918+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:42:58.993+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:58.992+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:42:59.026+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:59.025+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:42:59.073+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.219 seconds
+[2024-12-04T14:43:29.621+0700] {processor.py:186} INFO - Started process (PID=47743) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:43:29.623+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:43:29.630+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:29.628+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:43:29.664+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:43:29.752+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:29.752+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:43:29.787+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:29.787+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:43:29.840+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.239 seconds
+[2024-12-04T14:44:00.493+0700] {processor.py:186} INFO - Started process (PID=47872) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:44:00.496+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:44:00.502+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:00.502+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:44:00.531+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:44:00.607+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:00.606+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:44:00.636+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:00.636+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:44:00.675+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.209 seconds
+[2024-12-04T14:44:31.198+0700] {processor.py:186} INFO - Started process (PID=48004) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:44:31.200+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:44:31.209+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:31.207+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:44:31.270+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:44:31.393+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:31.392+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:44:31.441+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:31.440+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:44:31.531+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.352 seconds
+[2024-12-04T14:45:01.724+0700] {processor.py:186} INFO - Started process (PID=48833) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:45:01.728+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:45:01.737+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:01.736+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:45:01.794+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:45:01.912+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:01.911+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:45:01.995+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:01.995+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:45:02.138+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.432 seconds
+[2024-12-04T14:45:33.401+0700] {processor.py:186} INFO - Started process (PID=49636) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:45:33.405+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:45:33.423+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:33.413+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:45:33.461+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:45:33.651+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:33.650+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:45:33.782+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:33.781+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:45:33.977+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.611 seconds
+[2024-12-04T14:46:05.029+0700] {processor.py:186} INFO - Started process (PID=50308) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:46:05.034+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:46:05.040+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:05.039+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:46:05.183+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:46:05.440+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:05.438+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:46:05.478+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:05.477+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:46:05.560+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.553 seconds
+[2024-12-04T14:46:37.463+0700] {processor.py:186} INFO - Started process (PID=51143) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:46:37.479+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:46:37.486+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:37.485+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:46:37.570+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:46:37.722+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:37.721+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:46:37.752+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:37.751+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:46:37.849+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.435 seconds
+[2024-12-04T14:47:08.248+0700] {processor.py:186} INFO - Started process (PID=51599) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:47:08.251+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:47:08.257+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:08.256+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:47:08.295+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:47:08.408+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:08.407+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:47:08.446+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:08.445+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:47:08.516+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.289 seconds
+[2024-12-04T14:47:38.620+0700] {processor.py:186} INFO - Started process (PID=52125) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:47:38.622+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:47:38.627+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:38.627+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:47:38.653+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:47:38.758+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:38.757+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:47:38.795+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:38.794+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:47:38.860+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.260 seconds
+[2024-12-04T14:48:09.988+0700] {processor.py:186} INFO - Started process (PID=52511) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:48:09.991+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:48:09.997+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:09.995+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:48:10.035+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:48:10.143+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:10.142+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:48:10.182+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:10.181+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:48:10.242+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.292 seconds
+[2024-12-04T14:48:40.390+0700] {processor.py:186} INFO - Started process (PID=52898) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:48:40.392+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:48:40.397+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:40.396+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:48:40.420+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:48:40.507+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:40.507+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:48:40.540+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:40.540+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:48:40.580+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.205 seconds
+[2024-12-04T14:49:11.763+0700] {processor.py:186} INFO - Started process (PID=53275) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:49:11.766+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:49:11.784+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:11.783+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:49:11.834+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:49:11.939+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:11.938+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:49:11.981+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:11.980+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:49:12.038+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.316 seconds
+[2024-12-04T14:49:45.807+0700] {processor.py:186} INFO - Started process (PID=53923) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:49:45.820+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:49:45.853+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:45.852+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:49:45.990+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:49:46.244+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:46.243+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:49:46.395+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:46.395+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:49:46.559+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.885 seconds
+[2024-12-04T14:50:17.006+0700] {processor.py:186} INFO - Started process (PID=54759) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:50:17.008+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:50:17.031+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:17.030+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:50:17.131+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:50:17.326+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:17.325+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:17.365+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:17.365+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:50:17.468+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.523 seconds
+[2024-12-04T14:50:47.817+0700] {processor.py:186} INFO - Started process (PID=55711) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:50:47.839+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:50:47.878+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:47.870+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:50:47.973+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:50:48.163+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:48.162+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:48.282+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:48.281+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:50:48.350+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.563 seconds
+[2024-12-04T14:51:18.695+0700] {processor.py:186} INFO - Started process (PID=56546) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:51:18.698+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:51:18.703+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:18.702+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:51:18.779+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:51:18.951+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:18.950+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:19.249+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:19.248+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:51:19.415+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.778 seconds
+[2024-12-04T14:51:49.750+0700] {processor.py:186} INFO - Started process (PID=57441) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:51:49.752+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:51:49.755+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:49.754+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:51:49.929+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:51:50.166+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:50.165+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:50.373+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:50.372+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:51:50.503+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.813 seconds
+[2024-12-04T14:52:20.732+0700] {processor.py:186} INFO - Started process (PID=58024) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:52:20.734+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:52:20.738+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:20.737+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:52:20.770+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:52:20.851+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:20.850+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:20.888+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:20.887+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:52:20.935+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.226 seconds
+[2024-12-04T14:52:51.592+0700] {processor.py:186} INFO - Started process (PID=58617) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:52:51.598+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:52:51.602+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:51.601+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:52:51.638+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:52:51.735+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:51.735+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:51.767+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:51.767+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:52:51.808+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.239 seconds
+[2024-12-04T14:53:27.965+0700] {processor.py:186} INFO - Started process (PID=59552) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:53:27.997+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:53:28.000+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:27.999+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:53:28.191+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:53:28.462+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:28.461+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:53:28.537+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:28.537+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:53:28.624+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.711 seconds
+[2024-12-04T14:54:01.547+0700] {processor.py:186} INFO - Started process (PID=60625) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:54:01.550+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:54:01.555+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:01.554+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:54:01.615+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:54:01.959+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:01.959+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:02.009+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:02.009+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:54:02.302+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.778 seconds
+[2024-12-04T14:54:34.045+0700] {processor.py:186} INFO - Started process (PID=61619) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:54:34.046+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:54:34.049+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:34.048+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:54:34.096+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:54:34.351+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:34.350+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:34.439+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:34.438+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:54:34.540+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.512 seconds
+[2024-12-04T14:55:04.952+0700] {processor.py:186} INFO - Started process (PID=62215) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:55:04.985+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:55:04.988+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:04.987+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:55:05.088+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:55:05.451+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:05.450+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:05.495+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:05.495+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:55:05.574+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.669 seconds
+[2024-12-04T14:55:35.927+0700] {processor.py:186} INFO - Started process (PID=62902) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:55:35.937+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:55:35.945+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:35.944+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:55:36.064+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:55:36.233+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:36.232+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:36.294+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:36.293+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:55:36.399+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.532 seconds
+[2024-12-04T14:56:07.186+0700] {processor.py:186} INFO - Started process (PID=63639) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:56:07.188+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:56:07.190+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:07.190+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:56:07.211+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:56:07.295+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:07.294+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:07.325+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:07.324+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:56:07.362+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.189 seconds
+[2024-12-04T14:56:38.456+0700] {processor.py:186} INFO - Started process (PID=64482) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:56:38.482+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:56:38.499+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:38.498+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:56:38.571+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:56:38.755+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:38.755+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:38.787+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:38.786+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:56:38.884+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.535 seconds
+[2024-12-04T14:57:09.771+0700] {processor.py:186} INFO - Started process (PID=65197) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:57:09.778+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:57:09.780+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:09.779+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:57:09.852+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:57:09.972+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:09.972+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:10.016+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:10.016+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:57:10.190+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.516 seconds
+[2024-12-04T14:57:40.547+0700] {processor.py:186} INFO - Started process (PID=65967) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:57:40.552+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:57:40.555+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:40.554+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:57:40.614+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:57:40.720+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:40.719+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:40.755+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:40.754+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:57:40.791+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.268 seconds
+[2024-12-04T14:58:10.958+0700] {processor.py:186} INFO - Started process (PID=66710) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:58:10.969+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:58:10.990+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:10.984+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:58:11.028+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:58:11.302+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:11.302+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:11.446+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:11.446+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:58:11.563+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.656 seconds
+[2024-12-04T14:58:41.770+0700] {processor.py:186} INFO - Started process (PID=67529) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:58:41.776+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:58:41.782+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:41.781+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:58:41.831+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:58:41.963+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:41.962+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:42.001+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:42.001+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:58:42.087+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.352 seconds
+[2024-12-04T14:59:14.053+0700] {processor.py:186} INFO - Started process (PID=68626) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:59:14.059+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:59:14.075+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:14.074+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:59:14.196+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:59:14.675+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:14.675+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:14.898+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:14.895+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:59:15.082+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.070 seconds
+[2024-12-04T14:59:45.252+0700] {processor.py:186} INFO - Started process (PID=69667) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:59:45.255+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T14:59:45.258+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:45.257+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:59:45.324+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T14:59:45.564+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:45.564+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:45.672+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:45.669+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T14:59:46.050+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.832 seconds
+[2024-12-04T15:00:18.988+0700] {processor.py:186} INFO - Started process (PID=70995) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:00:18.994+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:00:18.996+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:18.996+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:00:19.044+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:00:19.402+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:19.402+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:00:19.582+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:19.582+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:00:19.653+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.771 seconds
+[2024-12-04T15:00:55.996+0700] {processor.py:186} INFO - Started process (PID=72392) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:00:56.031+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:00:56.074+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:56.069+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:00:56.372+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:00:58.905+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:58.904+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:00:59.611+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:59.611+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:01:00.994+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 5.205 seconds
+[2024-12-04T15:01:51.781+0700] {processor.py:186} INFO - Started process (PID=73931) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:01:51.801+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:01:51.804+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:51.803+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:01:51.966+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:01:52.348+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:52.348+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:01:52.482+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:52.482+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:01:52.710+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.014 seconds
+[2024-12-04T15:02:23.993+0700] {processor.py:186} INFO - Started process (PID=75219) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:02:23.998+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:02:24.002+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:24.002+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:02:24.074+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:02:24.191+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:24.190+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:24.375+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:24.369+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:02:24.532+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.584 seconds
+[2024-12-04T15:02:56.072+0700] {processor.py:186} INFO - Started process (PID=76298) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:02:56.074+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:02:56.080+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:56.079+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:02:56.234+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:02:56.647+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:56.643+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:56.785+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:56.784+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:02:56.997+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.031 seconds
+[2024-12-04T15:03:27.513+0700] {processor.py:186} INFO - Started process (PID=77566) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:03:27.526+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:03:27.530+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:27.529+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:03:27.751+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:03:28.013+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:28.012+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:28.100+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:28.100+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:03:28.197+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.882 seconds
+[2024-12-04T15:03:59.036+0700] {processor.py:186} INFO - Started process (PID=78603) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:03:59.051+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:03:59.053+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:59.053+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:03:59.151+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:03:59.347+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:59.341+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:59.428+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:59.427+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:03:59.533+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.530 seconds
+[2024-12-04T15:04:29.857+0700] {processor.py:186} INFO - Started process (PID=79658) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:04:29.888+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:04:29.891+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:29.890+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:04:30.006+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:04:30.325+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:30.324+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:30.442+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:30.442+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:04:30.582+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.819 seconds
+[2024-12-04T15:05:04.164+0700] {processor.py:186} INFO - Started process (PID=80778) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:05:04.176+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:05:04.179+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:04.178+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:05:04.330+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:05:04.756+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:04.755+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:04.909+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:04.909+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:05:05.018+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.902 seconds
+[2024-12-04T15:05:38.262+0700] {processor.py:186} INFO - Started process (PID=81901) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:05:38.273+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:05:38.276+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:38.276+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:05:38.320+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:05:38.642+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:38.642+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:38.793+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:38.793+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:05:38.948+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.765 seconds
+[2024-12-04T15:06:10.381+0700] {processor.py:186} INFO - Started process (PID=82686) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:06:10.390+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:06:10.392+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:10.392+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:06:10.477+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:06:10.701+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:10.700+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:10.855+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:10.854+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:06:10.977+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.703 seconds
+[2024-12-04T15:06:41.532+0700] {processor.py:186} INFO - Started process (PID=83580) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:06:41.537+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:06:41.540+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:41.540+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:06:41.669+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:06:41.982+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:41.982+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:42.130+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:42.124+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:06:42.259+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.787 seconds
+[2024-12-04T15:07:13.226+0700] {processor.py:186} INFO - Started process (PID=84478) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:07:13.254+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:07:13.257+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:13.256+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:07:13.626+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:07:13.746+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:13.745+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:13.789+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:13.789+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:07:13.865+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.773 seconds
+[2024-12-04T15:07:45.827+0700] {processor.py:186} INFO - Started process (PID=85379) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:07:45.831+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:07:45.833+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:45.832+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:07:45.903+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:07:46.139+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:46.138+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:46.199+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:46.199+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:07:46.314+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.502 seconds
+[2024-12-04T15:08:17.547+0700] {processor.py:186} INFO - Started process (PID=86227) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:08:17.579+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:08:17.609+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:17.608+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:08:17.765+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:08:18.375+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:18.367+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:18.584+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:18.583+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:08:19.015+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.762 seconds
+[2024-12-04T15:08:49.471+0700] {processor.py:186} INFO - Started process (PID=87034) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:08:49.481+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:08:49.492+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:49.491+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:08:49.598+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:08:50.509+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:50.509+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:50.607+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:50.606+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:08:51.037+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.631 seconds
+[2024-12-04T15:09:21.460+0700] {processor.py:186} INFO - Started process (PID=87898) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:09:21.464+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:09:21.472+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:21.472+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:09:21.580+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:09:22.035+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:22.035+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:22.079+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:22.079+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:09:22.209+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.797 seconds
+[2024-12-04T15:09:52.924+0700] {processor.py:186} INFO - Started process (PID=88810) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:09:52.955+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:09:52.957+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:52.957+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:09:53.025+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:09:53.238+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:53.238+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:53.409+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:53.408+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:09:53.669+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.817 seconds
+[2024-12-04T15:10:24.904+0700] {processor.py:186} INFO - Started process (PID=89589) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:10:24.920+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:10:24.935+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:24.934+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:10:25.197+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:10:25.438+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:25.438+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:10:25.646+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:25.646+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:10:25.835+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.004 seconds
+[2024-12-04T15:10:57.428+0700] {processor.py:186} INFO - Started process (PID=90411) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:10:57.436+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:10:57.438+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:57.438+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:10:57.648+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:10:57.927+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:57.927+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:10:57.961+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:57.961+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:10:58.023+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.715 seconds
+[2024-12-04T15:11:39.107+0700] {processor.py:186} INFO - Started process (PID=91538) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:11:39.159+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:11:39.163+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:39.162+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:11:39.568+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:11:40.335+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:40.331+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:11:40.615+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:40.605+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:11:41.279+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 2.395 seconds
+[2024-12-04T15:12:18.038+0700] {processor.py:186} INFO - Started process (PID=92795) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:12:18.043+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:12:18.051+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:18.045+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:12:18.205+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:12:18.668+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:18.667+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:18.890+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:18.890+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:12:19.100+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.117 seconds
+[2024-12-04T15:12:53.639+0700] {processor.py:186} INFO - Started process (PID=93820) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:12:53.645+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:12:53.648+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:53.647+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:12:53.681+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:12:53.815+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:53.814+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:53.903+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:53.903+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:12:54.138+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.517 seconds
+[2024-12-04T15:13:26.713+0700] {processor.py:186} INFO - Started process (PID=94867) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:13:26.742+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:13:26.750+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:26.749+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:13:26.868+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:13:27.216+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:27.216+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:13:27.369+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:27.368+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:13:27.523+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.880 seconds
+[2024-12-04T15:14:00.426+0700] {processor.py:186} INFO - Started process (PID=95822) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:14:00.429+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:14:00.432+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:00.432+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:14:00.643+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:14:01.096+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:01.095+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:14:01.228+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:01.228+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:14:01.287+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.959 seconds
+[2024-12-04T15:14:36.481+0700] {processor.py:186} INFO - Started process (PID=97098) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:14:36.484+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:14:36.505+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:36.489+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:14:36.685+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:14:37.167+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:37.167+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:14:37.569+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:37.566+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:14:37.940+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.563 seconds
+[2024-12-04T15:15:23.180+0700] {processor.py:186} INFO - Started process (PID=98756) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:15:23.187+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:15:23.191+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:23.190+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:15:23.369+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:15:23.908+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:23.908+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:15:24.099+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:24.098+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:15:24.229+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.068 seconds
+[2024-12-04T15:16:05.106+0700] {processor.py:186} INFO - Started process (PID=99684) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:16:05.121+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:16:05.124+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:05.123+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:16:05.310+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:16:05.656+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:05.656+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:05.820+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:05.819+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:16:05.977+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.918 seconds
+[2024-12-04T15:16:44.088+0700] {processor.py:186} INFO - Started process (PID=100704) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:16:44.103+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:16:44.128+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:44.108+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:16:44.283+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:16:44.670+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:44.670+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:44.835+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:44.833+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:16:44.929+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.914 seconds
+[2024-12-04T15:17:24.031+0700] {processor.py:186} INFO - Started process (PID=102431) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:17:24.047+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:17:24.058+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:24.057+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:17:24.227+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:17:24.651+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:24.650+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:17:26.288+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:26.288+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:17:26.471+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 2.532 seconds
+[2024-12-04T15:18:06.198+0700] {processor.py:186} INFO - Started process (PID=103767) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:18:06.226+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:18:06.387+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:06.340+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:18:06.802+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:18:07.223+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:07.223+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:18:08.741+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:08.741+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:18:08.846+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 2.835 seconds
+[2024-12-04T15:18:53.540+0700] {processor.py:186} INFO - Started process (PID=105488) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:18:53.557+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:18:53.590+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:53.590+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:18:53.823+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:18:54.262+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:54.257+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:18:54.416+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:54.416+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:18:54.644+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.151 seconds
+[2024-12-04T15:20:02.184+0700] {processor.py:186} INFO - Started process (PID=107203) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:20:02.199+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:20:02.201+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:02.201+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:20:02.401+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:20:02.828+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:02.828+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:20:02.905+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:02.904+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:20:03.087+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.964 seconds
+[2024-12-04T15:20:35.362+0700] {processor.py:186} INFO - Started process (PID=108653) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:20:35.376+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-04T15:20:35.388+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:35.388+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:20:35.424+0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-04T15:20:36.182+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:36.182+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:20:36.236+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:36.236+0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-04T15:20:36.468+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.266 seconds

@@ -1,0 +1,555 @@
+[2024-12-04T13:12:14.016+0700] {processor.py:186} INFO - Started process (PID=16384) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:12:14.018+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T13:12:14.023+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.022+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:12:14.055+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:12:14.251+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.251+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-12-04T13:12:14.264+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.263+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-12-04T13:12:14.272+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.272+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-12-04T13:12:14.291+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.290+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2024-12-04T13:12:14.301+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.300+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2024-12-04T13:12:14.310+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.310+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2024-12-04T13:12:14.320+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.319+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2024-12-04T13:12:14.320+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.320+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:12:14.336+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.335+0700] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2024-12-04T13:12:14.336+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:12:14.336+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T13:12:14.362+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.370 seconds
+[2024-12-04T13:13:15.068+0700] {processor.py:186} INFO - Started process (PID=17042) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:13:15.069+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T13:13:15.071+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:15.070+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:13:15.080+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:13:15.106+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:15.106+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:13:15.118+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:13:15.118+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T13:13:15.141+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.081 seconds
+[2024-12-04T13:32:31.941+0700] {processor.py:186} INFO - Started process (PID=30712) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:32:31.942+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T13:32:31.945+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:31.944+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:32:31.955+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:32:31.975+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:31.974+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:32:31.988+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:32:31.988+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T13:32:32.012+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.079 seconds
+[2024-12-04T13:33:28.252+0700] {processor.py:186} INFO - Started process (PID=30919) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:33:28.255+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T13:33:28.257+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:28.257+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:33:28.271+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:33:28.290+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:28.290+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:33:28.304+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:33:28.304+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T13:33:28.326+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.082 seconds
+[2024-12-04T13:34:26.309+0700] {processor.py:186} INFO - Started process (PID=31172) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:34:26.310+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T13:34:26.313+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:26.312+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:34:26.324+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:34:26.342+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:26.342+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:34:26.355+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:34:26.355+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T13:34:26.376+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.076 seconds
+[2024-12-04T13:35:26.565+0700] {processor.py:186} INFO - Started process (PID=31481) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:35:26.567+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T13:35:26.571+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:35:26.570+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:35:26.586+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T13:35:26.612+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:35:26.612+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T13:35:26.630+0700] {logging_mixin.py:190} INFO - [2024-12-04T13:35:26.629+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T13:35:26.653+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.099 seconds
+[2024-12-04T14:10:07.980+0700] {processor.py:186} INFO - Started process (PID=37432) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:10:07.982+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:10:07.988+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:07.987+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:10:08.005+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:10:08.037+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:08.037+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:10:08.058+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:10:08.058+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:10:08.104+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.137 seconds
+[2024-12-04T14:11:19.012+0700] {processor.py:186} INFO - Started process (PID=37793) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:11:19.015+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:11:19.023+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:11:19.022+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:11:19.061+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:11:19.146+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:11:19.145+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:11:19.185+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:11:19.184+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:11:19.311+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.320 seconds
+[2024-12-04T14:40:28.077+0700] {processor.py:186} INFO - Started process (PID=45671) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:40:28.083+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:40:28.095+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.094+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:40:28.122+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:40:28.432+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.424+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-12-04T14:40:28.460+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.459+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-12-04T14:40:28.488+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.487+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-12-04T14:40:28.520+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.519+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2024-12-04T14:40:28.542+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.541+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2024-12-04T14:40:28.568+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.568+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2024-12-04T14:40:28.590+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.589+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2024-12-04T14:40:28.590+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.590+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:40:28.638+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.638+0700] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2024-12-04T14:40:28.640+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:28.639+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:40:28.701+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.643 seconds
+[2024-12-04T14:40:58.903+0700] {processor.py:186} INFO - Started process (PID=45952) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:40:58.905+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:40:58.912+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:58.911+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:40:58.941+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:40:59.031+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:59.030+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:40:59.061+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:40:59.060+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:40:59.108+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.231 seconds
+[2024-12-04T14:41:30.095+0700] {processor.py:186} INFO - Started process (PID=46251) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:41:30.097+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:41:30.109+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:30.108+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:41:30.127+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:41:30.223+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:30.223+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:41:30.262+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:41:30.261+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:41:30.311+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.235 seconds
+[2024-12-04T14:42:00.744+0700] {processor.py:186} INFO - Started process (PID=46558) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:42:00.747+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:42:00.772+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:00.769+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:42:00.804+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:42:00.907+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:00.906+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:42:00.956+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:00.956+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:42:01.038+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.322 seconds
+[2024-12-04T14:42:31.897+0700] {processor.py:186} INFO - Started process (PID=47020) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:42:31.899+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:42:31.905+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:31.904+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:42:31.925+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:42:31.999+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:31.999+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:42:32.035+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:42:32.034+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:42:32.083+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.206 seconds
+[2024-12-04T14:43:02.824+0700] {processor.py:186} INFO - Started process (PID=47612) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:43:02.826+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:43:02.830+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:02.830+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:43:02.849+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:43:02.909+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:02.908+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:43:02.935+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:02.935+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:43:02.985+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.175 seconds
+[2024-12-04T14:43:33.371+0700] {processor.py:186} INFO - Started process (PID=47769) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:43:33.374+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:43:33.381+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:33.380+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:43:33.410+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:43:33.565+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:33.564+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:43:33.649+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:43:33.648+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:43:33.761+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.409 seconds
+[2024-12-04T14:44:04.078+0700] {processor.py:186} INFO - Started process (PID=47895) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:44:04.081+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:44:04.086+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:04.086+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:44:04.116+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:44:04.232+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:04.231+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:44:04.280+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:04.279+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:44:04.336+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.277 seconds
+[2024-12-04T14:44:35.153+0700] {processor.py:186} INFO - Started process (PID=48033) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:44:35.156+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:44:35.173+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:35.169+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:44:35.240+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:44:35.362+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:35.362+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:44:35.433+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:44:35.432+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:44:35.492+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.368 seconds
+[2024-12-04T14:45:05.678+0700] {processor.py:186} INFO - Started process (PID=48909) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:45:05.681+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:45:05.689+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:05.688+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:45:05.718+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:45:05.810+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:05.809+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:45:05.842+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:05.842+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:45:05.885+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.260 seconds
+[2024-12-04T14:45:36.056+0700] {processor.py:186} INFO - Started process (PID=49709) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:45:36.061+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:45:36.069+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:36.068+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:45:36.105+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:45:36.221+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:36.220+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:45:36.265+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:45:36.265+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:45:36.302+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.266 seconds
+[2024-12-04T14:46:08.720+0700] {processor.py:186} INFO - Started process (PID=50405) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:46:08.725+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:46:08.734+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:08.733+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:46:08.762+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:46:08.838+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:08.837+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:46:08.889+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:08.888+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:46:09.028+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.332 seconds
+[2024-12-04T14:46:41.328+0700] {processor.py:186} INFO - Started process (PID=51198) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:46:41.334+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:46:41.350+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:41.349+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:46:41.426+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:46:41.547+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:41.546+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:46:41.611+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:46:41.610+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:46:41.723+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.419 seconds
+[2024-12-04T14:47:12.426+0700] {processor.py:186} INFO - Started process (PID=51683) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:47:12.429+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:47:12.434+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:12.434+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:47:12.464+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:47:12.549+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:12.548+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:47:12.582+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:12.581+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:47:12.634+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.225 seconds
+[2024-12-04T14:47:42.841+0700] {processor.py:186} INFO - Started process (PID=52204) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:47:42.844+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:47:42.851+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:42.850+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:47:42.877+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:47:42.959+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:42.958+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:47:42.997+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:47:42.996+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:47:43.060+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.242 seconds
+[2024-12-04T14:48:13.546+0700] {processor.py:186} INFO - Started process (PID=52569) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:48:13.552+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:48:13.590+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:13.590+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:48:13.659+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:48:13.773+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:13.772+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:48:13.825+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:13.824+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:48:13.882+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.352 seconds
+[2024-12-04T14:48:44.852+0700] {processor.py:186} INFO - Started process (PID=52986) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:48:44.857+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:48:44.871+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:44.870+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:48:44.935+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:48:45.160+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:45.160+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:48:45.377+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:48:45.374+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:48:45.450+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.632 seconds
+[2024-12-04T14:49:16.023+0700] {processor.py:186} INFO - Started process (PID=53378) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:49:16.027+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:49:16.044+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:16.043+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:49:16.098+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:49:16.239+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:16.238+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:49:16.303+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:16.303+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:49:16.362+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.374 seconds
+[2024-12-04T14:49:50.450+0700] {processor.py:186} INFO - Started process (PID=54054) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:49:50.463+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:49:50.484+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:50.483+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:49:50.544+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:49:50.630+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:50.630+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:49:50.707+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:49:50.707+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:49:50.800+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.459 seconds
+[2024-12-04T14:50:25.715+0700] {processor.py:186} INFO - Started process (PID=55003) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:50:25.728+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:50:25.756+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:25.739+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:50:25.924+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:50:26.163+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:26.162+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:26.348+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:26.348+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:50:26.512+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.918 seconds
+[2024-12-04T14:50:56.987+0700] {processor.py:186} INFO - Started process (PID=55856) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:50:56.988+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:50:56.991+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:56.990+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:50:57.017+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:50:57.124+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:57.123+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:50:57.179+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:50:57.178+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:50:57.274+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.343 seconds
+[2024-12-04T14:51:27.741+0700] {processor.py:186} INFO - Started process (PID=56774) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:51:27.766+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:51:27.785+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:27.768+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:51:27.841+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:51:28.126+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:28.126+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:51:28.244+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:28.244+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:51:28.410+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.722 seconds
+[2024-12-04T14:51:59.736+0700] {processor.py:186} INFO - Started process (PID=57641) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:51:59.754+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:51:59.766+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:59.757+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:51:59.824+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:51:59.986+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:51:59.985+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:00.083+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:00.083+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:52:00.268+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.580 seconds
+[2024-12-04T14:52:31.016+0700] {processor.py:186} INFO - Started process (PID=58194) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:52:31.019+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:52:31.023+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:31.022+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:52:31.057+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:52:31.174+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:31.174+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:52:31.244+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:52:31.243+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:52:31.487+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.502 seconds
+[2024-12-04T14:53:02.273+0700] {processor.py:186} INFO - Started process (PID=58862) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:53:02.287+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:53:02.300+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:02.299+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:53:02.385+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:53:02.563+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:02.562+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:53:02.667+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:02.667+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:53:02.772+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.586 seconds
+[2024-12-04T14:53:34.286+0700] {processor.py:186} INFO - Started process (PID=59684) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:53:34.296+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:53:34.316+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:34.315+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:53:34.362+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:53:34.531+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:34.530+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:53:34.640+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:53:34.639+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:53:34.842+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.606 seconds
+[2024-12-04T14:54:08.572+0700] {processor.py:186} INFO - Started process (PID=60888) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:54:08.581+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:54:08.589+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:08.588+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:54:08.649+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:54:08.807+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:08.804+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:08.906+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:08.905+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:54:09.215+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.678 seconds
+[2024-12-04T14:54:41.176+0700] {processor.py:186} INFO - Started process (PID=61750) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:54:41.190+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:54:41.194+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:41.193+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:54:41.224+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:54:41.432+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:41.418+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:54:41.574+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:54:41.574+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:54:41.703+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.565 seconds
+[2024-12-04T14:55:14.129+0700] {processor.py:186} INFO - Started process (PID=62449) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:55:14.132+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:55:14.137+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:14.136+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:55:14.187+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:55:14.451+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:14.450+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:14.596+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:14.595+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:55:14.775+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.727 seconds
+[2024-12-04T14:55:45.634+0700] {processor.py:186} INFO - Started process (PID=63120) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:55:45.643+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:55:45.677+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:45.669+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:55:45.768+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:55:45.964+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:45.962+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:55:46.082+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:55:46.081+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:55:46.180+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.594 seconds
+[2024-12-04T14:56:16.644+0700] {processor.py:186} INFO - Started process (PID=63897) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:56:16.646+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:56:16.651+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:16.650+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:56:16.689+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:56:16.840+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:16.839+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:16.908+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:16.907+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:56:17.034+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.421 seconds
+[2024-12-04T14:56:47.145+0700] {processor.py:186} INFO - Started process (PID=64680) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:56:47.149+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:56:47.152+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:47.151+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:56:47.204+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:56:47.351+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:47.350+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:56:47.403+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:56:47.402+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:56:47.443+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.317 seconds
+[2024-12-04T14:57:18.673+0700] {processor.py:186} INFO - Started process (PID=65441) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:57:18.707+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:57:18.709+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:18.709+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:57:18.765+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:57:18.848+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:18.848+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:18.898+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:18.898+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:57:18.997+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.374 seconds
+[2024-12-04T14:57:49.377+0700] {processor.py:186} INFO - Started process (PID=66140) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:57:49.379+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:57:49.383+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:49.381+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:57:49.404+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:57:49.471+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:49.470+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:57:49.499+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:57:49.499+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:57:49.565+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.201 seconds
+[2024-12-04T14:58:19.975+0700] {processor.py:186} INFO - Started process (PID=67006) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:58:19.976+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:58:19.978+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:19.978+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:58:19.998+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:58:20.060+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:20.060+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:20.091+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:20.091+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:58:20.132+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.171 seconds
+[2024-12-04T14:58:50.754+0700] {processor.py:186} INFO - Started process (PID=67778) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:58:50.755+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:58:50.757+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:50.757+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:58:50.774+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:58:50.827+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:50.826+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:58:50.851+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:58:50.851+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:58:50.902+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.158 seconds
+[2024-12-04T14:59:22.336+0700] {processor.py:186} INFO - Started process (PID=68885) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:59:22.347+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:59:22.378+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:22.373+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:59:22.482+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:59:22.620+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:22.620+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:22.732+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:22.732+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:59:22.816+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.783 seconds
+[2024-12-04T14:59:53.644+0700] {processor.py:186} INFO - Started process (PID=69905) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:59:53.683+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T14:59:53.701+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:53.701+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:59:53.915+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T14:59:54.418+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:54.418+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T14:59:54.641+0700] {logging_mixin.py:190} INFO - [2024-12-04T14:59:54.621+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T14:59:54.886+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.341 seconds
+[2024-12-04T15:00:25.184+0700] {processor.py:186} INFO - Started process (PID=71248) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:00:25.195+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:00:25.215+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:25.214+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:00:25.331+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:00:25.492+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:25.491+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:00:25.544+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:00:25.543+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:00:25.600+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.489 seconds
+[2024-12-04T15:01:40.836+0700] {processor.py:186} INFO - Started process (PID=73491) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:01:40.853+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:01:40.897+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:40.897+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:01:41.118+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:01:41.519+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:41.519+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:01:41.662+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:01:41.662+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:01:41.833+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.155 seconds
+[2024-12-04T15:02:12.192+0700] {processor.py:186} INFO - Started process (PID=74898) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:02:12.195+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:02:12.199+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:12.198+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:02:12.230+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:02:12.308+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:12.307+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:12.364+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:12.364+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:02:12.442+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.383 seconds
+[2024-12-04T15:02:44.809+0700] {processor.py:186} INFO - Started process (PID=75888) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:02:44.816+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:02:44.833+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:44.832+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:02:44.940+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:02:45.275+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:45.274+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:02:45.434+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:02:45.434+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:02:45.601+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.918 seconds
+[2024-12-04T15:03:15.987+0700] {processor.py:186} INFO - Started process (PID=77183) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:03:15.995+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:03:15.998+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:15.997+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:03:16.064+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:03:16.220+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:16.219+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:16.290+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:16.289+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:03:16.395+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.503 seconds
+[2024-12-04T15:03:49.919+0700] {processor.py:186} INFO - Started process (PID=78279) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:03:49.926+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:03:49.930+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:49.929+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:03:50.063+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:03:50.229+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:50.228+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:03:50.359+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:03:50.359+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:03:50.518+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.778 seconds
+[2024-12-04T15:04:20.794+0700] {processor.py:186} INFO - Started process (PID=79337) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:04:20.807+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:04:20.810+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:20.809+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:04:20.889+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:04:21.058+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:21.056+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:21.219+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:21.219+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:04:21.356+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.595 seconds
+[2024-12-04T15:04:53.536+0700] {processor.py:186} INFO - Started process (PID=80520) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:04:53.543+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:04:53.550+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:53.549+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:04:53.672+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:04:54.242+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:54.242+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:04:54.425+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:04:54.400+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:04:54.589+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.124 seconds
+[2024-12-04T15:05:32.493+0700] {processor.py:186} INFO - Started process (PID=81764) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:05:32.497+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:05:32.500+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:32.500+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:05:32.610+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:05:32.985+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:32.985+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:05:33.477+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:05:33.477+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:05:34.038+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.650 seconds
+[2024-12-04T15:06:05.822+0700] {processor.py:186} INFO - Started process (PID=82579) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:06:05.834+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:06:05.838+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:05.837+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:06:05.861+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:06:05.938+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:05.937+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:06.025+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:06.024+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:06:06.216+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.424 seconds
+[2024-12-04T15:06:37.086+0700] {processor.py:186} INFO - Started process (PID=83456) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:06:37.093+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:06:37.097+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:37.096+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:06:37.122+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:06:37.335+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:37.327+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:06:37.442+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:06:37.442+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:06:37.620+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.558 seconds
+[2024-12-04T15:07:08.539+0700] {processor.py:186} INFO - Started process (PID=84344) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:07:08.545+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:07:08.548+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:08.548+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:07:08.657+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:07:08.864+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:08.864+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:09.013+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:09.008+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:07:09.213+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.720 seconds
+[2024-12-04T15:07:40.447+0700] {processor.py:186} INFO - Started process (PID=85237) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:07:40.455+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:07:40.459+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:40.458+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:07:40.513+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:07:40.738+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:40.738+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:07:40.884+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:07:40.869+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:07:41.144+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.859 seconds
+[2024-12-04T15:08:11.845+0700] {processor.py:186} INFO - Started process (PID=86088) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:08:11.875+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:08:11.877+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:11.877+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:08:11.970+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:08:12.080+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:12.080+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:12.112+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:12.111+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:08:12.191+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.388 seconds
+[2024-12-04T15:08:43.866+0700] {processor.py:186} INFO - Started process (PID=86883) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:08:43.891+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:08:43.894+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:43.893+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:08:44.043+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:08:44.458+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:44.458+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:08:44.695+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:08:44.694+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:08:44.748+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.110 seconds
+[2024-12-04T15:09:15.617+0700] {processor.py:186} INFO - Started process (PID=87744) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:09:15.622+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:09:15.633+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:15.628+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:09:15.695+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:09:15.914+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:15.913+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:16.041+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:16.040+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:09:16.197+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.631 seconds
+[2024-12-04T15:09:48.430+0700] {processor.py:186} INFO - Started process (PID=88678) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:09:48.437+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:09:48.441+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:48.440+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:09:48.503+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:09:48.681+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:48.680+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:09:48.714+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:09:48.714+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:09:48.754+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.367 seconds
+[2024-12-04T15:10:22.946+0700] {processor.py:186} INFO - Started process (PID=89537) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:10:22.968+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:10:22.971+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:22.970+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:10:23.163+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:10:23.460+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:23.459+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:10:23.741+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:23.740+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:10:24.090+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.213 seconds
+[2024-12-04T15:10:58.911+0700] {processor.py:186} INFO - Started process (PID=90458) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:10:58.914+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:10:58.919+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:58.918+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:10:58.955+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:10:59.189+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:59.189+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:10:59.321+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:10:59.321+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:10:59.377+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.541 seconds
+[2024-12-04T15:11:44.723+0700] {processor.py:186} INFO - Started process (PID=91657) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:11:44.732+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:11:44.741+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:44.741+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:11:44.880+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:11:45.245+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:45.245+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:11:45.589+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:11:45.588+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:11:45.646+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.004 seconds
+[2024-12-04T15:12:30.887+0700] {processor.py:186} INFO - Started process (PID=93181) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:12:30.905+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:12:30.928+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:30.911+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:12:31.134+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:12:31.461+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:31.460+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:12:31.562+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:12:31.561+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:12:31.681+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.897 seconds
+[2024-12-04T15:13:06.727+0700] {processor.py:186} INFO - Started process (PID=94242) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:13:06.734+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:13:06.795+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:06.780+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:13:07.221+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:13:07.691+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:07.691+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:13:07.883+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:07.883+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:13:08.021+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 2.046 seconds
+[2024-12-04T15:13:39.637+0700] {processor.py:186} INFO - Started process (PID=95233) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:13:39.674+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:13:39.719+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:39.719+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:13:39.787+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:13:39.877+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:39.876+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:13:40.012+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:13:40.011+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:13:40.147+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.607 seconds
+[2024-12-04T15:14:17.416+0700] {processor.py:186} INFO - Started process (PID=96405) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:14:17.426+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:14:17.436+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:17.435+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:14:17.580+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:14:18.117+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:18.117+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:14:18.334+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:14:18.333+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:14:19.579+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 2.240 seconds
+[2024-12-04T15:15:02.817+0700] {processor.py:186} INFO - Started process (PID=98073) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:15:02.825+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:15:02.837+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:02.836+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:15:02.995+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:15:03.306+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:03.306+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:15:03.392+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:03.391+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:15:04.794+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 2.083 seconds
+[2024-12-04T15:15:54.589+0700] {processor.py:186} INFO - Started process (PID=99410) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:15:54.621+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:15:54.623+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:54.622+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:15:54.653+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:15:54.723+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:54.722+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:15:54.756+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:15:54.755+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:15:54.805+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.334 seconds
+[2024-12-04T15:16:38.321+0700] {processor.py:186} INFO - Started process (PID=100559) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:16:38.355+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:16:38.357+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:38.357+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:16:38.419+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:16:38.651+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:38.649+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:16:39.249+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:16:39.249+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:16:39.342+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.079 seconds
+[2024-12-04T15:17:30.092+0700] {processor.py:186} INFO - Started process (PID=102620) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:17:30.100+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:17:30.104+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:30.103+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:17:30.126+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:17:30.223+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:30.222+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:17:31.502+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:17:31.502+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:17:31.592+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 1.546 seconds
+[2024-12-04T15:18:19.610+0700] {processor.py:186} INFO - Started process (PID=104343) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:18:19.637+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:18:19.664+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:19.662+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:18:19.942+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:18:20.308+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:20.308+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:18:22.952+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:18:22.952+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:18:23.153+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 3.924 seconds
+[2024-12-04T15:19:32.461+0700] {processor.py:186} INFO - Started process (PID=106570) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:19:32.492+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:19:32.515+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:32.514+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:19:33.162+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:19:35.665+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:35.665+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:19:35.776+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:19:35.776+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:19:36.005+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 3.719 seconds
+[2024-12-04T15:20:26.605+0700] {processor.py:186} INFO - Started process (PID=108360) to work on /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:20:26.620+0700] {processor.py:914} INFO - Processing file /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-04T15:20:26.632+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:26.631+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:20:26.737+0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-04T15:20:27.110+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:27.110+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T15:20:27.279+0700] {logging_mixin.py:190} INFO - [2024-12-04T15:20:27.279+0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-04T15:20:27.503+0700] {processor.py:208} INFO - Processing /home/dea/weather-monitoring/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.984 seconds

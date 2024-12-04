@@ -1,8 +1,18 @@
-FROM apache/airflow:2.6.0
+# Gunakan image Python sebagai base
+FROM python:3.9-slim
 
-USER root
-RUN apt-get update && apt-get install -y \
-    libpq-dev \
-    && pip install psycopg2-binary requests
+# Set working directory
+WORKDIR /app
 
-USER airflow
+# Salin file requirements dan kode aplikasi ke dalam container
+COPY requirements.txt requirements.txt
+COPY . .
+
+# Instal dependensi Python
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Buka port Flask (default 5000)
+EXPOSE 5000
+
+# Perintah untuk menjalankan aplikasi
+CMD ["python", "app.py"]

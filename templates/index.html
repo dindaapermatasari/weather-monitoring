@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weather App</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+   <div class="container">
+       <h1 class="title">Weather Application</h1>
+      
+       <!-- Form input kota -->
+       <form method="POST" class="weather-form">
+           <input type="text" name="city" placeholder="Enter City Name" required>
+           <button type="submit">Get Weather</button>
+       </form>
+      
+       <!-- Menampilkan hasil cuaca -->
+       {% if weather %}
+       <div class="weather-result">
+           <h2>Weather in {{ city }}</h2>
+           <p><strong>Temperature:</strong> {{ weather['temperature'] }}°C</p>
+           <p><strong>Pressure:</strong> {{ weather['pressure'] }} hPa</p>
+           <p><strong>Humidity:</strong> {{ weather['humidity'] }}%</p>
+           <p><strong>Wind Speed:</strong> {{ weather['wind_speed'] }} m/s</p>
+           <p><strong>Condition:</strong> {{ weather['weather'] }}</p>
+       </div>
+       {% elif error %}
+       <p class="error">{{ error }}</p>
+       {% endif %}
+
+       <!-- Riwayat pencarian -->
+       {% if history %}
+       <div class="history">
+           <h3>Search History</h3>
+           <table>
+               <thead>
+                   <tr>
+                       <th>City</th>
+                       <th>Temperature (°C)</th>
+                       <th>Pressure (hPa)</th>
+                       <th>Humidity (%)</th>
+                       <th>Wind Speed (m/s)</th>
+                       <th>Condition</th>
+                       <th>Time</th>  <!-- Tambahkan kolom untuk waktu -->
+                   </tr>
+               </thead>
+               <tbody>
+                   {% for entry in history %}
+                   <tr>
+                       <td>{{ entry[0] }}</td>
+                       <td>{{ entry[1] }}</td>
+                       <td>{{ entry[2] }}</td>
+                       <td>{{ entry[3] }}</td>
+                       <td>{{ entry[4] }}</td>
+                       <td>{{ entry[5] }}</td>
+                       <td>{{ entry[6] }}</td>  <!-- Menambahkan waktu -->
+                   </tr>
+                   {% endfor %}
+               </tbody>
+           </table>
+       </div>
+       {% endif %}
+   </div>
+</body>
+</html>
