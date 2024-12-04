@@ -1,76 +1,97 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #222831; /* Dark background for contrast */
     margin: 0;
     padding: 0;
+    color: #EEEEEE; /* Light text color for readability */
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto; /* Added margin for spacing from the top */
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #393E46; /* Darker container background */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow for more depth */
 }
 
 .title {
     text-align: center;
-    color: #333;
+    color: #00ADB5; /* Teal color for title */
+    font-size: 2.5em; /* Increased font size for emphasis */
+    margin-bottom: 20px; /* Space below title */
 }
 
 .weather-form {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Increased margin for better spacing */
 }
 
 .weather-form input {
-    padding: 10px;
-    width: 200px;
+    padding: 12px;
+    width: 250px; /* Wider input field */
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #00ADB5; /* Teal border */
+    background-color: #393E46; /* Matching input background */
+    color: #EEEEEE; /* Light text color */
+    transition: border-color 0.3s; /* Smooth transition for focus effect */
+}
+
+.weather-form input:focus {
+    border-color: #00ADB5; /* Teal border on focus */
+    outline: none; /* Remove default outline */
 }
 
 .weather-form button {
-    padding: 10px 20px;
+    padding: 12px 25px; /* Increased padding for buttons */
     margin-left: 10px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #00ADB5; /* Teal background for buttons */
+    color: #222831; /* Dark text color for button */
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
 }
 
 .weather-form button:hover {
-    background-color: #45a049;
+    background-color: #007B7F; /* Darker teal on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
 }
 
 .weather-result, .history {
-    margin-top: 20px;
+    margin-top: 30px; /* Increased margin for better spacing */
 }
 
 .weather-result p {
-    font-size: 1.2em;
+    font-size: 1.5em; /* Larger font for results */
+    color: #00ADB5; /* Teal color for results */
 }
 
 .error {
-    color: red;
+    color: #d9534f; /* Bootstrap error color */
     font-weight: bold;
+    text-align: center; /* Centered error messages */
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 30px; /* Increased margin for better spacing */
 }
 
 table th, table td {
-    padding: 10px;
+    padding: 12px; /* Increased padding for better cell spacing */
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #444; /* Darker border for table */
 }
 
 table th {
-    background-color: #f2f2f2;
+    background-color: #00ADB5; /* Teal background for headers */
+    font-weight: bold; /* Bold header text */
+    color: #222831; /* Dark text for headers */
+}
+
+table tr:hover {
+    background-color: #393E46; /* Darker background on hover for rows */
 }
