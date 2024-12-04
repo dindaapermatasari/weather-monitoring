@@ -1,4 +1,4 @@
-#!/home/dea/weather-monitoring/venv/bin/python3
+#!/home/dinda/weather-monitoring/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

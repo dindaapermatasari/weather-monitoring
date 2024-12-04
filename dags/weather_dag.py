@@ -1,40 +1,38 @@
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.operators.python import PythonOperator  # Perbarui modul ini
 from datetime import datetime, timedelta
-import requests
+import pandas as pd
 
-# Fungsi untuk mengambil data cuaca
-def fetch_weather_data():
-    api_key = "4c4567a6b7573ad25f40c085e0ebf302"  # Ganti dengan API Key Anda
-    city = "Surabaya"  # Ganti dengan kota Anda
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
-    
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        weather = data['weather'][0]['description']
-        print(f"Weather in {city}: {weather}")
-    else:
-        print("Failed to fetch weather data")
-
-# Konfigurasi DAG
 default_args = {
-    'owner': 'airflow',
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    "owner": "airflow",
+    "depends_on_past": False,
+    "email_on_failure": False,
+    "email_on_retry": False,
+    "retries": 1,
+    "retry_delay": timedelta(minutes=5),
 }
 
-dag = DAG(
-    dag_id='weather_monitoring',
-    default_args=default_args,
-    description='A DAG to fetch weather data hourly',
-    schedule_interval='@hourly',
-    start_date=datetime(2024, 12, 1),
-    catchup=False,
-)
+def update_weather_data():
+    # Simulasi pembaruan data cuaca
+    new_data = {
+        "temperature": [301.15],
+        "pressure": [1009],
+        "humidity": [80],
+        "wind_speed": [3.2],
+        "weather": ["Rain"],
+    }
+    df = pd.DataFrame(new_data)
+    df.to_csv("/opt/airflow/data/weather_data.csv", index=False)
 
-fetch_weather_task = PythonOperator(
-    task_id='fetch_weather',
-    python_callable=fetch_weather_data,
-    dag=dag,
-)
+with DAG(
+    "weather_monitoring_dag",
+    default_args=default_args,
+    description="DAG for Weather Monitoring",
+    schedule="0 * * * *",  # Ganti schedule_interval dengan schedule
+    start_date=datetime(2023, 12, 1),
+    catchup=False,
+) as dag:
+    update_weather = PythonOperator(
+        task_id="update_weather_data",
+        python_callable=update_weather_data,
+    )

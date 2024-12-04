@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Weather Forecast</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+ <div class="container mt-5">
+     <h1 class="text-center">Weather in {{ weather.city }}</h1>
+     <div class="text-center">
+         <img src="http://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="weather icon">
+         <h3>{{ weather.description.title() }}</h3>
+         <h2>{{ weather.temperature }}°C</h2>
+         <p>Humidity: {{ weather.humidity }}%</p>
+         <p>Wind Speed: {{ weather.wind_speed }} m/s</p>
+     </div>
+     <div class="text-center mt-4">
+         <a href="/" class="btn btn-secondary">Search Again</a>
+     </div>
+ </div>
+</body>
+</html>
