@@ -1,0 +1,19 @@
+# Gunakan image resmi Apache Airflow
+FROM apache/airflow:2.7.0-python3.9
+
+# Set environment variables
+ENV AIRFLOW_HOME=/opt/airflow
+
+# Pindah ke pengguna airflow untuk instalasi paket
+USER airflow
+
+# Menyalin file DAG dan skrip Python ke dalam container
+COPY ./tasks/store_weather.py /opt/airflow/dags/weather-monitoring/tasks/store_weather.py
+COPY ./tasks/fetch_weather.py /opt/airflow/dags/weather-monitoring/tasks/fetch_weather.py
+COPY ./dags /opt/airflow/dags/
+
+# Install dependencies (misalnya psycopg2 untuk koneksi database PostgreSQL)
+RUN pip install --no-cache-dir psycopg2-binary
+
+# Set default command untuk menjalankan Airflow scheduler, webserver, dan worker
+CMD ["airflow", "webserver"]

@@ -1,0 +1,87 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres:13
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=weather_data
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: airflow-webserver
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:postgres@postgres:5432/weather_data
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    command: ["airflow", "webserver"]
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: airflow-scheduler
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:postgres@postgres:5432/weather_data
+    volumes:
+      - ./dags:/opt/airflow/dags
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    command: ["airflow", "scheduler"]
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: airflow-worker
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:postgres@postgres:5432/weather_data
+    volumes:
+      - ./dags:/opt/airflow/dags
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    command: ["airflow", "celery", "worker"]
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: streamlit-app
+    ports:
+      - "8501:8501"  # Expose Streamlit port
+    volumes:
+      - ./dashboard:/app  # Mount hanya folder aplikasi Streamlit
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    command: ["streamlit", "run", "dashboard.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+volumes:
+  postgres_data:
