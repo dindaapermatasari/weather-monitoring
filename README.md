@@ -2,6 +2,9 @@
 
 Proyek ini bertujuan untuk mengimplementasikan sistem otomatisasi pengambilan, penyimpanan, dan visualisasi data cuaca menggunakan Apache Airflow, Docker, dan Git. Sistem ini mengambil data cuaca dari API OpenWeather untuk beberapa kota, menyimpan data tersebut dalam basis data PostgreSQL yang berjalan di container Docker, dan menampilkan visualisasi data dalam bentuk dashboard interaktif.
 
+# Tampilan Dags Airflow
+![Screenshot from 2024-12-06 13-46-09](https://github.com/user-attachments/assets/dfacbe17-d37c-4fde-8a7e-82121352c2a0)
+
 # Desain Dashboard
 
 ![791031c3-eb35-47f3-8cdb-cc8802a105fb](https://github.com/user-attachments/assets/b5c815df-bd04-4ccc-b2ed-7e365ecf2fb6)
